@@ -64,11 +64,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 https://nba.2k.com/nl-NL/
 
 **Screenshot(s):**
-![Afbeelding1](images/Afbeelding1)
-![Afbeelding2](images/Afbeelding2)
-![Afbeelding3](images/Afbeelding3)
-![Afbeelding4](images/Afbeelding4)
-![Afbeelding5](images/Afbeelding5)
+![Afbeelding1](https://github.com/delanohehakaja/WebsiteFrontEnd/images/Afbeelding1)
+![Afbeelding2](https://github.com/delanohehakaja/WebsiteFrontEnd/images/Afbeelding2)
+![Afbeelding3](https://github.com/delanohehakaja/WebsiteFrontEnd/images/Afbeelding3)
+![Afbeelding4](https://github.com/delanohehakaja/WebsiteFrontEnd/images/Afbeelding4)
+![Afbeelding5](https://github.com/delanohehakaja/WebsiteFrontEnd/images/Afbeelding5)
 
 
 **Breakdown-schets(en):**
