@@ -64,7 +64,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 https://nba.2k.com/nl-NL/
 
 **Screenshot(s):**
-![Afbeelding1](https://github.com/delanohehakaja/WebsiteFrontEnd/images/Afbeelding1)
+![Afbeelding1](images/Afbeelding1.png)
 ![Afbeelding2](https://github.com/delanohehakaja/WebsiteFrontEnd/images/Afbeelding2)
 ![Afbeelding3](https://github.com/delanohehakaja/WebsiteFrontEnd/images/Afbeelding3)
 ![Afbeelding4](https://github.com/delanohehakaja/WebsiteFrontEnd/images/Afbeelding4)
