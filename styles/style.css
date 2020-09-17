@@ -1,5 +1,129 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    background: purple;
+}
+
+/* MAMBA FOREVER EDITION DEEL */
+
+.container {
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2px;
+    margin: 5px;
+    min-height: 550px;
+}
+
+/* tekst */
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: 250px;
+    margin-left: 20px;
+    margin-right: 50px;
+    color: white;
+    font-family: sans-serif;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    margin: 20px;
+}
+
+.HamburgerMenu {
+    width: 40px;
+}
+
+.PreOrderButton {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+
+a {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a:hover {
+    background-color: black;
+    color: red;
+}
+
+.Button:hover {
+    background-color: black;
+    color: red;
+}
+
+/* header */
+div nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    background-size: auto;
+    height: 40px;
+}
+
+header nav li {
+    justify-content: space-between;
+}
+
+li {
+    display: flex;
+    list-style: none;
+
+}
+
+.NbaLogo {
+    width: 100px;
+}
+
+/* 2KBEATS DEEL */
+
+.container2 {
+    padding: 2px;
+    margin: 5px;
+    min-height: 550px;
+}
+
+.InfoButton {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.Beats {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+/* YOUTUBE DEEL*/

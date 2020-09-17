@@ -7,8 +7,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. https://nba.2k.com/nl-NL/
-2. -bron 2-
-3. -...-
+2. https://courses.wesbos.com/
+3. w3schools.com
+4. https://flexboxfroggy.com/#nl
 
 
 
