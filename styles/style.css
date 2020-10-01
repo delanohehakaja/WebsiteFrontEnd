@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Provicali";
+    src: url("Provicali.otf");
+}
+
 /* HOME PAGINA */
 
 body {
@@ -19,19 +24,70 @@ body {
     background-position: center;
     padding: 2px;
     margin: 5px;
-    min-height: 550px;
+    height: 530px;
+}
+
+@media (min-width:330px) {
+    .container {
+        height: 600px;
+    }
+}
+
+@media (min-width:440px) {
+    .container {
+        height: 675px;
+    }
+}
+
+.container h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    font-family: "Provicali";
+    margin-top: 250px;
+    margin-right: 30px;
+}
+
+@media (min-width: 322px) {
+    .container h1 {
+        margin-top: 280px;
+        margin-right: 330px;
+    }
+}
+
+@media (min-width: 330px) {
+    .container h1 {
+        margin-top: 300px;
+        margin-right: 330px;
+    }
+}
+
+@media (min-width: 340px) {
+    .container h1 {
+        margin-top: 300px;
+        margin-right: 330px;
+    }
+}
+
+
+.container p {
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
 }
 
 /* tekst */
 h1 {
+    margin-left: 20px;
+    display: flex;
     color: white;
-    font-family: sans-serif;
+    font-family: "Provicali";
 }
 
 h2 {
-    display: flex;
     justify-content: center;
-    font-family: sans-serif;
+    font-family: "Provicali";
 }
 
 p {
@@ -43,15 +99,6 @@ p {
     margin: 20px;
 }
 
-.MambaTekst {
-    display: flex;
-    justify-content: center;
-    text-align: left;
-    margin-top: 250px;
-    margin-left: 20px;
-    margin-right: 50px;
-}
-
 .HamburgerMenu {
     width: 30px;
 }
@@ -60,20 +107,13 @@ p {
     display: flex;
     justify-content: center;
     background-color: red;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 10px;
+    max-width: 220px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: "Provicali";
     color: white;
-}
-
-.NuKopenButton {
-    background-color: red;
-    text-decoration: none;
-    padding: 7px;
-    color: white;
-    font-family: sans-serif;
 }
 
 a:hover {
@@ -91,16 +131,37 @@ div nav ul {
     position: fixed;
     width: 90%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 0;
     margin: 10px;
-    background-size: auto;
     height: 30px;
 }
 
-li {
+div nav ul li:nth-of-type(1) {
     display: flex;
-    list-style: none;
+    align-items: flex-start;
+    width: 100px;
+    height: 30px;
+}
+
+div nav ul li:nth-of-type(2) {
+    display: flex;
+    justify-content: flex-end;
+    background-color: red;
+    padding: 7px;
+    font-family: sans-serif;
+}
+
+div nav ul li:nth-of-type(3) {
+    display: flex;
+    justify-content: flex-end;
+    width: 30px;
+}
+
+div nav ul li a {
+    text-decoration: none;
+    color: white;
 }
 
 .NbaLogo {
@@ -115,23 +176,27 @@ li {
     margin: 5px;
 }
 
+.container2 h1 {
+    color: black;
+}
+
 .InfoButton {
     display: flex;
     justify-content: center;
+    text-align: center;
     background-color: black;
-    margin-left: 50px;
-    margin-right: 50px;
+    max-width: 200px;
+    margin: auto;
     padding: 10px;
     color: white;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: "Provicali";
 
 }
 
 .Beats {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 95%;
 }
 
@@ -143,18 +208,181 @@ li {
 }
 
 /* KIES JE VERSIE DEEL */
+.container3 {
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2px;
+    margin: 5px;
+    min-height: 650px;
+}
 
-.KiesTekst {
+.container3 h1 {
+    color: black;
+}
+
+p.black {
+    color: black;
+}
+
+.LillardCover {
+    display: flex;
+    margin: 30px auto;
+    height: 300px;
+}
+
+/* COURTSIDE REPORT DEEL */
+.container4 {
+    padding: 2px;
+    margin: 5px;
+    min-height: 500px;
+}
+
+.container4 h1 {
+    color: black;
+}
+
+
+
+/* FOOTER */
+footer {
+    background-color: black;
+    padding: 2px;
+    margin: 5px;
+    height: 600px;
+}
+
+.Text a {
+    display: flex;
+    text-decoration: none;
+    color:white;
+}
+.Text ul {
     display: flex;
     justify-content: center;
-    text-align: left;
-    margin-left: 20px;
-    margin-right: 50px;
+
+}
+
+.Text li {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 30px;
+
+}
+
+.Text2 a {
+    display: flex;
+    text-decoration: none;
+    color:white;
+}
+.Text2 ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.Text2 li {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 30px;
+
+}
+
+/*Social icons*/
+.Social ul {
+    display: flex;
+    justify-content: center;
+}
+
+.Social li {
+    margin-right: 30px;
+}
+
+
+.Everyone {
+    display: block;
+    margin: auto;
 }
 
 /* KOPEN PAGINA */
-
 .KopenPagina {
-    background-color: grey;
+    background-color: dimgrey;
     margin: 0;
+}
+
+.container5 {
+    padding: 2px;
+    margin: 5px;
+    min-height: 550px;
+}
+
+.container5 h1 {
+    margin-top: 80px;
+    color: red;
+}
+
+.container5 p {
+    font-family: "Provicali";
+}
+
+.Playstation {
+    background-color: black;
+}
+
+.PlaystationStore {
+    display: flex;
+    text-align: center;
+    background-color: red;
+    max-width: 280px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-decoration: none;
+    font-family: "Provicali";
+    color: white;
+}
+
+.Vragen {
+    display: flex;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0);
+    border-style: solid;
+    border-color: red;
+    max-width: 280px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-family: "Provicali";
+    color: white;
+}
+
+@media (min-width:344px) {
+    .Vragen {
+        display: flex;
+        text-align: center;
+        max-width: 300px;
+    }
+}
+
+@media (min-width:440px) {
+    .Vragen {
+        display: flex;
+        text-align: center;
+        max-width: 360px;
+    }
+}
+
+button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
 }
