@@ -121,6 +121,10 @@ a:hover {
     color: red;
 }
 
+.Button {
+    background-color: red;
+}
+
 .Button:hover {
     background-color: black;
     color: red;
@@ -128,6 +132,26 @@ a:hover {
 
 /* HEADER MENUBOX */
 div nav ul {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding:0;
+    margin: 10px;
+}
+
+div nav li {
+    list-style: none;
+}
+
+.NuKopen {
+    text-decoration:none;
+    color: white;
+    background-color: red;
+    padding: 5px;
+}
+
+/*
+div nav:nth-of-type(1) ul {
     position: fixed;
     width: 90%;
     display: flex;
@@ -148,7 +172,6 @@ div nav ul li:nth-of-type(1) {
 div nav ul li:nth-of-type(2) {
     display: flex;
     justify-content: flex-end;
-    background-color: red;
     padding: 7px;
     font-family: sans-serif;
 }
@@ -162,7 +185,7 @@ div nav ul li:nth-of-type(3) {
 div nav ul li a {
     text-decoration: none;
     color: white;
-}
+}*/
 
 .NbaLogo {
     width: 100px;
@@ -258,6 +281,8 @@ footer {
 }
 .Text ul {
     display: flex;
+    flex-wrap: wrap;
+    padding: 0;
     justify-content: center;
 
 }
@@ -277,6 +302,8 @@ footer {
 }
 .Text2 ul {
     display: flex;
+    flex-wrap: wrap;
+    padding: 0;
     justify-content: center;
 
 }
@@ -326,8 +353,44 @@ footer {
     font-family: "Provicali";
 }
 
+div.KopenPagina ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
 .Playstation {
     background-color: black;
+}
+
+.Playstation:active {
+    background-color: white;
+}
+
+.Xbox {
+    background-color: black;
+}
+
+.Xbox:active {
+    background-color: white;
+}
+
+.Steam {
+    background-color: black;
+} 
+
+.Steam:active {
+    background-color: white;
+}
+
+.Stadia {
+    background-color: black;
+}
+
+.Stadia:active {
+    background-color:white;
 }
 
 .PlaystationStore {

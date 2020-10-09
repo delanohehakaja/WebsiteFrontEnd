@@ -30,12 +30,26 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Voortgang 2 (week 5)
+2 pagina's kunnen laten zien, maar nog niet helemaal af. 
 
--same as voortgang 1-
+Wat lastig ging:
+
+- De footer kreeg ik niet responsive.
+- Hamburgermenu werd een rood blokje op de 2e pagina.
+- De keuze tussen consoles moet nog toegevoegd worden.
 
 
 
 ## Voortgang 1 (week 3)
+Aan mijn eerste pagina begonnen. 
+
+Wat lastig ging:
+
+- Ik kreeg mijn afbeelding van Kobe Bryant niet achter mijn tekst.
+- De header moest nog responsive zijn.
+- Youtube video werkt nog niet.
+
+
 
 ### Stand van zaken
 
