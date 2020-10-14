@@ -24,7 +24,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Voortgang 3 (week 6)
-![Alt text](Schermopname_Voortgang3.gif) / ![](Schermopname_Voortgang3.gif)
 -same as voortgang 1-
 
 ![Alt text](https://github.com/delanohehakaja/WebsiteFrontEnd/Schermopname_Voortgang3.gif)

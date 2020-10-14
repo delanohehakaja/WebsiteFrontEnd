@@ -118,7 +118,16 @@ p {
     color: white;
 }
 
-a:hover {
+.PreOrderButton:Focus {
+    background-color: darkred;
+}
+
+.PreOrderButton:hover {
+    background-color: black;
+    color: red;
+}
+
+div nav li a:hover {
     background-color: black;
     color: red;
 }
