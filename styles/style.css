@@ -136,12 +136,13 @@ p {
     color: red;
 }
 
-/* HEADER MENUBOX */
+/* HEADER MENUBOX
 div nav ul {
     display:flex;
     position: fixed;
-    width: 90%;
+    width: 92%;
     flex-wrap: wrap;
+    align-items: center;
     justify-content:space-between;
     padding:0;
     margin: 10px;
@@ -149,25 +150,97 @@ div nav ul {
 
 div nav li {
     list-style: none;
+}*/
+
+/*HEADER MET HAMBURGERMENU*/
+header {
+    width: 95%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .7em;
+    top: 0;
 }
 
+header a {
+    text-decoration: none;
+    color: white;
+}
 
-.NuKopen {
-    text-decoration:none;
+/*NBA LOGO*/
+header a:nth-of-type(1) img {
+    padding: 10px;
+    height: 50px;
+}
+
+/*NU KOPEN BUTTON*/
+header a:nth-of-type(2) {
+    display: block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
     color: white;
     background-color: red;
     padding: 5px;
     font-family: "Provicali";
+    z-index: 100;
 }
 
-.Nukopen:hover {
+header a:nth-of-type(2):focus {
+    background-color: darkred;
+}
+
+header a:nth-of-type(2):hover {
     background-color: black;
     color: red;
 }
 
-.NuKopen:focus {
-    background-color: darkred;
+header nav {
+    order: 2;
 }
+
+/*HAMBURGER MENU*/
+header nav button {
+    position: relative;
+    text-align: center;
+    background-color: red;
+    border: none;
+    border-radius: .25em;
+    appearance: none;
+    cursor: pointer;
+    z-index: 100;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 4em 0 0;
+    background: Black;
+    list-style: none;
+    position: fixed;
+    left: 300px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: translatex(100%);
+    transition: 0.5s;
+}
+
+nav.toonMenu ul {
+    transform: translateX(0)
+}
+
+header li {
+    margin: 0;
+    padding 0;
+}
+
+header li a {
+    display: block;
+    padding: 1em 1em 1em 3.5em;
+    text-align: center;
+}
+
 
 /* OUDE HEADER MENUBOX
 div nav:nth-of-type(1) ul {
@@ -205,11 +278,6 @@ div nav ul li a {
     text-decoration: none;
     color: white;
 }*/
-
-.NbaLogo {
-    width: 100px;
-    height: 30px
-}
 
 /* 2KBEATS DEEL */
 
@@ -282,7 +350,7 @@ p.black {
     .LillardCover {
         height: 400px;
     }
-} 
+}
 
 @media (min-width: 400px) {
     .LillardCover {
@@ -314,11 +382,11 @@ footer {
 .Text a {
     display: flex;
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
 .Text a:focus {
-    color: red;    
+    color: red;
 }
 
 .Text ul {
@@ -340,7 +408,7 @@ footer {
 .Text2 a {
     display: flex;
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
 .Text2 a:focus {
@@ -374,7 +442,7 @@ footer {
 }
 
 .Social a:focus {
-    color:red;
+    color: red;
 }
 
 
@@ -430,7 +498,7 @@ div.KopenPagina ul {
 
 .Steam {
     background-color: black;
-} 
+}
 
 .Steam:active {
     background-color: white;
@@ -441,7 +509,7 @@ div.KopenPagina ul {
 }
 
 .Stadia:active {
-    background-color:white;
+    background-color: white;
 }
 
 .PlaystationStore {
