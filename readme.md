@@ -28,7 +28,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ![Alt text](images/Schermopname_Voortgang3.gif)
 
-<video>
+<video controls width="250">
     <source src="images/Schermopname_Voortgang3.mp4" type="video/mp4">
 </video>
 
