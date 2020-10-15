@@ -127,11 +127,6 @@ p {
     color: red;
 }
 
-div nav li a:hover {
-    background-color: black;
-    color: red;
-}
-
 .Button {
     background-color: red;
 }
@@ -156,12 +151,22 @@ div nav li {
     list-style: none;
 }
 
+
 .NuKopen {
     text-decoration:none;
     color: white;
     background-color: red;
     padding: 5px;
     font-family: "Provicali";
+}
+
+.Nukopen:hover {
+    background-color: black;
+    color: red;
+}
+
+.NuKopen:focus {
+    background-color: darkred;
 }
 
 /* OUDE HEADER MENUBOX
@@ -229,6 +234,10 @@ div nav ul li a {
     text-decoration: none;
     font-family: "Provicali";
 
+}
+
+.InfoButton:focus {
+    background-color: darkgray;
 }
 
 .Beats {
@@ -307,6 +316,11 @@ footer {
     text-decoration: none;
     color:white;
 }
+
+.Text a:focus {
+    color: red;    
+}
+
 .Text ul {
     display: flex;
     flex-wrap: wrap;
@@ -328,6 +342,11 @@ footer {
     text-decoration: none;
     color:white;
 }
+
+.Text2 a:focus {
+    color: red;
+}
+
 .Text2 ul {
     display: flex;
     flex-wrap: wrap;
@@ -352,6 +371,10 @@ footer {
 
 .Social li {
     margin-right: 30px;
+}
+
+.Social a:focus {
+    color:red;
 }
 
 
@@ -449,6 +472,10 @@ div.KopenPagina ul {
     text-decoration: none;
     font-family: "Provicali";
     color: white;
+}
+
+.Vragen:focus {
+    background-color: darkred;
 }
 
 @media (min-width:344px) {
