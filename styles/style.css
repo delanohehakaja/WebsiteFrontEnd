@@ -11,12 +11,10 @@
 }
 
 /* HOME PAGINA */
-/*
+
 body {
-    max-width: 800px;
-    margin: 0 auto;
-    float: none;
-    background: black;
+    margin: auto;
+    max-width: 1000px;
 }
 
 
@@ -137,26 +135,10 @@ p {
     color: red;
 }
 
-/* HEADER MENUBOX
-div nav ul {
-    display:flex;
-    position: fixed;
-    width: 92%;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content:space-between;
-    padding:0;
-    margin: 10px;
-}
 
-div nav li {
-    list-style: none;
-}*/
-
-
-/**************************/
-/*HEADER MET HAMBURGERMENU*/
-/**************************/
+/********/
+/*HEADER*/
+/********/
 header {
     width: 95%;
     display: flex;
@@ -165,6 +147,7 @@ header {
     justify-content: space-between;
     padding: 0 .7em;
     top: 0;
+    max-width: 1000px;
 }
 
 header a {
@@ -258,11 +241,6 @@ nav.toonMenu button::before {
     font-size: 28px;
 }
 
-header li {
-    margin: 0;
-    padding 0;
-}
-
 header li a {
     display: block;
     padding: 1em 1em 1em 3.5em;
@@ -270,47 +248,9 @@ header li a {
 }
 
 
-/* OUDE HEADER MENUBOX
-div nav:nth-of-type(1) ul {
-    position: fixed;
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0;
-    margin: 10px;
-    height: 30px;
-}
-
-div nav ul li:nth-of-type(1) {
-    display: flex;
-    align-items: flex-start;
-    width: 100px;
-    height: 30px;
-}
-
-div nav ul li:nth-of-type(2) {
-    display: flex;
-    justify-content: flex-end;
-    padding: 7px;
-    font-family: sans-serif;
-}
-
-div nav ul li:nth-of-type(3) {
-    display: flex;
-    justify-content: flex-end;
-    width: 30px;
-}
-
-div nav ul li a {
-    text-decoration: none;
-    color: white;
-}*/
-
-
-/****************/
-/* 2KBEATS DEEL */
-/****************/
+/*********************/
+/* DE ZOEKTOCHT DEEL */
+/*********************/
 .container2 {
     padding: 2px;
     margin: 5px;
@@ -318,6 +258,24 @@ div nav ul li a {
 
 .container2 h1 {
     color: black;
+}
+
+@media (min-width: 375px) {
+    .container2 p {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 500px) {
+    .container2 p {
+        font-size: 17px;
+    }
+}
+
+@media (min-width:810px) {
+    .container2 p {
+        font-size: 20px;
+    }
 }
 
 .InfoButton {
@@ -363,89 +321,118 @@ div nav ul li a {
     background-position: center;
     padding: 2px;
     margin: 5px;
-    min-height: 650px;
 }
 
 .container3 h1 {
     color: black;
 }
 
-p.black {
+.container3 p {
     color: black;
     font-family: "Provicali";
+}
+
+@media (min-width: 375px) {
+    .container3 p {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 500px) {
+    .container3 p {
+        font-size: 17px;
+    }
+}
+
+@media (min-width:810px) {
+    .container3 p {
+        font-size: 20px;
+    }
 }
 
 .container3 ul {
     display: flex;
     list-style: none;
+    margin-right: 40px;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    padding: 0 .7em;
+    justify-content: center;
 }
 
 .container3 li {
     padding: 10px;
-    flex-direction: row;
-    max-width: 300px;
-
 }
 
 .LillardCover {
     display: flex;
-    margin: 30px auto;
+    margin: auto;
     height: 300px;
 }
 
-@media (min-width: 350px) {
+@media (min-width:370px) {
     .LillardCover {
-        height: 400px;
+        height: 350px;
     }
 }
 
-@media (min-width: 400px) {
+@media (min-width:500px) {
     .LillardCover {
         height: 500px;
+    }
+}
+
+@media (min-width:730px) {
+    .LillardCover {
+        height: 350px;
     }
 }
 
 .MambaCover {
     display: flex;
-    margin: 30px auto;
+    margin: auto;
     height: 300px;
 }
 
-
-@media (min-width: 350px) {
+@media (min-width:370px) {
     .MambaCover {
-        height: 400px;
+        height: 350px;
     }
 }
 
-@media (min-width: 400px) {
+@media (min-width:500px) {
     .MambaCover {
         height: 500px;
+    }
+}
+
+@media (min-width:730px) {
+    .MambaCover {
+        height: 350px;
     }
 }
 
 .ZionCover {
     display: flex;
-    margin: 30px auto;
+    margin: auto;
     height: 300px;
 }
 
-
-@media (min-width: 350px) {
+@media (min-width: 370px) {
     .ZionCover {
-        height: 400px;
+        height: 350px;
     }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 500px) {
     .ZionCover {
         height: 500px;
     }
 }
 
+@media (min-width:730px) {
+    .ZionCover {
+        height: 350px;
+    }
+}
 
 /*************************/
 /* COURTSIDE REPORT DEEL */
@@ -460,6 +447,12 @@ p.black {
     color: black;
 }
 
+.container4 p {
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+}
+
 
 /**********/
 /* FOOTER */
@@ -468,7 +461,31 @@ footer {
     background-color: black;
     padding: 2px;
     margin: 5px;
-    height: 800px;
+    height: 700px;
+}
+
+footer p {
+    margin: auto;
+    padding: 30px;
+    max-width: 800px;
+}
+
+@media (min-width: 375px) {
+    footer p {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 500px) {
+    footer p {
+        font-size: 17px;
+    }
+}
+
+@media (min-width:810px) {
+    footer p {
+        font-size: 20px;
+    }
 }
 
 .Text a {
@@ -485,6 +502,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
+    margin-top: 30px;
     justify-content: center;
 
 }
@@ -555,24 +573,102 @@ footer {
     margin: auto;
 }
 
-/* KOPEN PAGINA */
-.KopenPagina {
-    background-color: dimgrey;
-    margin: 0;
-}
 
-.container5 {
+/****************/
+/* KOPEN PAGINA */
+/****************/
+.KopenPagina {
+    margin: 0;
     padding: 2px;
     margin: 5px;
-    min-height: 550px;
 }
 
-.container5 h1 {
-    margin-top: 80px;
+@media (min-width:900px) {
+    .KopenPagina {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 2rem;
+    margin: auto;
+    padding 1.5em;
+    }
+}
+
+.MambaCover2 {
+    display: flex;
+    margin: auto;
+    height: 300px;
+}
+
+@media (min-width:325px) {
+    .MambaCover2 {
+        height: 350px;
+    }
+}
+
+@media (min-width:400px) {
+    .MambaCover2 {
+        height: 400px;
+    }
+}
+
+@media (min-width:500px) {
+    .MambaCover2 {
+        height: 500px;
+    }
+}
+
+@media (min-width:650px) {
+    .MambaCover2 {
+        height: 600px;
+    }
+}
+
+@media (min-width:900px) {
+    .MambaCover2 {
+        height: 500px;
+    }
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.container3 ul {
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.KopenPagina h1 {
+    margin-top: 100px;
     color: red;
 }
 
-.container5 p {
+@media (min-width: 600px) {
+    .KopenPagina h1 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 700px) {
+    .KopenPagina h1 {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 995px) {
+    .KopenPagina h1 {
+        font-size: 80px;
+    }
+}
+
+.KopenPagina p {
     font-family: "Provicali";
 }
 
@@ -621,13 +717,41 @@ div.KopenPagina ul {
     text-align: center;
     background-color: red;
     max-width: 280px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
     text-decoration: none;
     font-family: "Provicali";
     color: white;
+}
+
+.Bonus {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-style: solid;
+    border-color: red;
+}
+
+@media (min-width:344px) {
+    .Bonus {
+        width: 300px;
+    }
+}
+
+@media (min-width:440px) {
+    .Bonus {
+        width: 360px;
+    }
+}
+
+.Bonus h2 {
+    color:red;
 }
 
 .Vragen {
@@ -637,7 +761,7 @@ div.KopenPagina ul {
     border-style: solid;
     border-color: red;
     max-width: 280px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px 50px;
@@ -652,16 +776,13 @@ div.KopenPagina ul {
 
 @media (min-width:344px) {
     .Vragen {
-        display: flex;
-        text-align: center;
+
         max-width: 300px;
     }
 }
 
 @media (min-width:440px) {
     .Vragen {
-        display: flex;
-        text-align: center;
         max-width: 360px;
     }
 }

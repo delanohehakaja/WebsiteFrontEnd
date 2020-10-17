@@ -24,7 +24,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Voortgang 3 (week 6)
--same as voortgang 1-
 "![responsive image](images/responsive_2k21.gif)
 
 
