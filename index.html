@@ -16,9 +16,9 @@
         <header>
             <a href="index.html"><img src="images/Nba_Logo.png" alt="NBA logo"></a>
             <nav>
-                <button aria-hidden="true">Menu</button>
+                <button aria-hidden="true"></button>
                 <ul>
-                    <li class="active"><a>ABOUT GAME</a></li>
+                    <li><a>ABOUT GAME</a></li>
                     <li><a href="#">EIGENSCHAPPEN</a></li>
                     <li><a href="#">MyTEAM</a></li>
                     <li><a href="#">MyCAREER</a></li>
@@ -49,8 +49,13 @@
     </div>
     <div style="background-image: url(images/Lillard.png)" class="container3">
         <h1>KIES JE VERSIE</h1>
-        <img src="images/Lillard_Cover.png" alt="Standard Edition" class="LillardCover">
-        <p class="black">STANDARD EDITION</p>
+        <ul>
+            <li>
+                <img src="images/Zion_Cover.png" class="ZionCover"></li>
+            <li><img src="images/Lillard_Cover.png" alt="Standard Edition" class="LillardCover"></li>
+            <li><img src="images/Mamba_Cover.png" class="MambaCover"></li>
+            <p class="black">STANDARD EDITION</p>
+        </ul>
         <a href="kopen.html" class="PreOrderButton">NU KOPEN</a>
     </div>
     <div style="background-color: gainsboro" class="container4">
@@ -92,7 +97,11 @@
                 </li>
             </ul>
         </nav>
-        <button type="button">Netherlands v</button>
+        <select id="land" name="land">
+            <option value="Nederlands">NEDERLANDS</option>
+            <option value="English">ENGLISH</option>
+            <option value="Francias">FRANCIAS</option>
+        </select>
         <div>
             <a href="#" class="Vragen">AANMELDEN VOOR NIEUWSBRIEF</a>
         </div>

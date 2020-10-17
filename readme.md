@@ -25,10 +25,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 -same as voortgang 1-
-
-<video controls width="250">
-    <source src="images/Schermopname_Voortgang3.mp4" type="video/mp4">
-</video>
+"![responsive image](images/responsive_2k21.gif)
 
 
 ## Voortgang 2 (week 5)
