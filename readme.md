@@ -15,12 +15,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
-
-**Screenshot(s):**
-
--screenshot(s) van je eindresultaat-
-
 Deze week had ik mij vooral gericht op het responsive gedeelte op pagina 1, zodat de content niet oneindig mee schaalt en de tekst leesbaar is op grotere beeldschermen. Daarnaast heb ik de hamburger menu werkend gemaakt met behulp van deze bron: https://codepen.io/shooft/pen/vYGQNZj. Ten slotte heb ik mijn 2e pagina afgemaakt, gevuld met alle content.
 
 Hieronder is het eindresultaat van deze week:
