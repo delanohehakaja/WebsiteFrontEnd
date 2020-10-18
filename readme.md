@@ -31,9 +31,14 @@ Pagina 1 & 2 mobile
 
 Pagina 1 responsive
 
+![responsive Mamba](images/Responsive_Mamba.gif)
+![responsive Zoektocht](images/Responsive_Zoektocht.gif)
+![responsive Versie](images/Responsive_Versie.gif)
+![responsive Footer](images/Responsive_Footer.gif)
 
 Pagina 2 responsive
 
+![responsive pagina2](images/Responsive_Pagina2.gif)
 
 ## Voortgang 3 (week 6)
 
