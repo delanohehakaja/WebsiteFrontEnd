@@ -47,10 +47,12 @@ Deze week had ik mij gericht op mijn 1e pagina hoe ik mijn Kobe Bryant afbeeldin
 Hieronder is het eindresultaat van deze week:
 
 Pagina 1
+
 ![Afbeelding1 Voortgang2](images/Voortgang2.png)
 ![Afbeelding2 Voortgang2](images/Voortgang2_2.png)
 
 Pagina 2
+
 ![Afbeelding3 Voortgang2](images/Voortgang2_3.png)
 
 Feedbackgesprek Jelmer:
