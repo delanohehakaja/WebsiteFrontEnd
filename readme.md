@@ -58,9 +58,9 @@ Deze week ben ik aan mijn eerste pagina begonnen. Ik kreeg mijn Kobe Bryant afbe
 
 Hieronder is het eindresultaat van deze week:
 
-Feedbackgesprek Jelmer:
+![Afbeelding](images/Voortgang1.png)
 
-![Afbeelding](images/Voortgang1.jpeg)
+Feedbackgesprek Jelmer:
 
 - Je kan de afbeelding binnenin de div doen als achtergrond
 - De Youtube video is wel mogelijk zonder een foutmelding, er is een link die ik je kan sturen zodat het waarschijnlijk wel gaat werken
