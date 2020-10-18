@@ -42,11 +42,16 @@ Feedbackgesprek Janno:
 
 
 ## Voortgang 2 (week 5)
-Deze week had ik mij gericht op mijn 1e pagina hoe ik mijn Kobe Bryant afbeelding achter de tekst kreeg. Ik kreeg een tip van Jelmer om de afbeelding binnenin mijn div te doen en nu werkt het. Ook vroeg ik aan jelmer om mij te kunnen helpen met de Youtube video, want ik had een paar forms bezocht met eventueel een oplossing maar daar kwam ik ook niet uit. Wat niet lukte was de footer responsive te maken, mijn tekst viel steeds buiten mijn container. Daarnaast werd de afbeelding van de hamburger menu steeds een rood blokje. Tot slot heb ik 2 pagina's gecodeert staan, maar nog niet alle content toegevoegd zoals de console keuzes.
+Deze week had ik mij gericht op mijn 1e pagina hoe ik mijn Kobe Bryant afbeelding achter de tekst kreeg. Ik kreeg een tip van Jelmer om de afbeelding binnenin mijn div te doen en nu werkt het. Ook vroeg ik aan jelmer om mij te kunnen helpen met de Youtube video, want ik had een paar forms bezocht met eventueel een oplossing maar daar kwam ik ook niet uit. Wat niet lukte was de footer responsive te maken, mijn tekst viel steeds buiten mijn container. Daarnaast werd de afbeelding van de hamburger menu steeds een rood blokje op de 2e pagina. Tot slot heb ik 2 pagina's gecodeert staan, maar nog niet alle content toegevoegd zoals de console keuzes.
 
 Hieronder is het eindresultaat van deze week:
 
-![Afbeelding1 Voortgang1](images/Voortgang2.png)
+Pagina 1
+![Afbeelding1 Voortgang2](images/Voortgang2.png)
+![Afbeelding2 Voortgang2](images/Voortgang2_2.png)
+
+Pagina 2
+![Afbeelding3 Voortgang2](images/Voortgang2_3.png)
 
 Feedbackgesprek Jelmer:
 
@@ -60,7 +65,8 @@ Deze week ben ik aan mijn eerste pagina begonnen. Ik kreeg mijn Kobe Bryant afbe
 
 Hieronder is het eindresultaat van deze week:
 
-![Afbeelding1 Voortgang1](images/Voortgang1.png) ![Afbeelding2 Voortgang1](images/Voortgang1_2.png)
+![Afbeelding1 Voortgang1](images/Voortgang1.png)
+![Afbeelding2 Voortgang1](images/Voortgang1_2.png)
 
 Feedbackgesprek Jelmer:
 
