@@ -46,6 +46,8 @@ Deze week had ik mij gericht op mijn 1e pagina hoe ik mijn Kobe Bryant afbeeldin
 
 Hieronder is het eindresultaat van deze week:
 
+![Afbeelding1 Voortgang1](images/Voortgang2.png)
+
 Feedbackgesprek Jelmer:
 
 - Tip voor de footer is om flex-wrap: wrap te gebruiken om de tekst responsive te maken
@@ -58,30 +60,13 @@ Deze week ben ik aan mijn eerste pagina begonnen. Ik kreeg mijn Kobe Bryant afbe
 
 Hieronder is het eindresultaat van deze week:
 
-![Afbeelding](images/Voortgang1.png)
+![Afbeelding1 Voortgang1](images/Voortgang1.png)
+![Afbeelding2 Voortgang1](images/Voortgang1_2.png)
 
 Feedbackgesprek Jelmer:
 
 - Je kan de afbeelding binnenin de div doen als achtergrond
 - De Youtube video is wel mogelijk zonder een foutmelding, er is een link die ik je kan sturen zodat het waarschijnlijk wel gaat werken
-
-
-
-### Stand van zaken
-
--dit ging goed & dit was lastig-
-
-**Screenshot(s):**
-
--screenshot(s) van hoe ver je bent-
-
-### Agenda voor meeting
-
--samen met je groepje opstellen-
-
-### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
 
 
 

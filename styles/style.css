@@ -546,8 +546,8 @@ footer p {
 
 .Text2 ul {
     display: flex;
-    flex-wrap: wrap;
-    padding: 0;
+  flex-wrap: wrap;
+  padding: 0;
     justify-content: center;
 
 }
