@@ -24,28 +24,46 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Voortgang 3 (week 6)
-"![responsive image](images/responsive_2k21.gif)
+
+Deze week had ik mij vooral gericht op het responsive gedeelte op pagina 1, de footer kreeg ik nu wel responsive met behulp van de flex-wrap: wrap.
+Waar ik nog steeds niet ben uitgekomen is hoe ik het rode blokje op de 2e pagina weg krijg, hierdoor ben ik niet toegekomen aan de keuzes van consoles toevoegen. 
+
+Hieronder is het eindresultaat van deze week:
+
+![responsive image](images/responsive_2k21.gif)
+
+Feedbackgesprek Janno:
+
+- Voeg een max-width aan, zodat al je content niet oneindig mee schaalt
+- Maak de tekst, qua grootte, ook responsive het is dan duidelijker lezen op een groot beeldscherm
+- De 2e pagina mag meer opgevuld worden met content
+- Ik ben benieuwd naar je hamburger menu, wanneer hij werkt
+
 
 
 ## Voortgang 2 (week 5)
-2 pagina's kunnen laten zien, maar nog niet helemaal af. 
+Deze week had ik mij gericht op mijn 1e pagina hoe ik mijn Kobe Bryant afbeelding achter de tekst kreeg. Ik kreeg een tip van Jelmer om de afbeelding binnenin mijn div te doen en nu werkt het. Ook vroeg ik aan jelmer om mij te kunnen helpen met de Youtube video, want ik had een paar forms bezocht met eventueel een oplossing maar daar kwam ik ook niet uit. Wat niet lukte was de footer responsive te maken, mijn tekst viel steeds buiten mijn container. Daarnaast werd de afbeelding van de hamburger menu steeds een rood blokje. Tot slot heb ik 2 pagina's gecodeert staan, maar nog niet alle content toegevoegd zoals de console keuzes.
 
-Wat lastig ging:
+Hieronder is het eindresultaat van deze week:
 
-- De footer kreeg ik niet responsive.
-- Hamburgermenu werd een rood blokje op de 2e pagina.
-- De keuze tussen consoles moet nog toegevoegd worden.
+Feedbackgesprek Jelmer:
+
+- Tip voor de footer is om flex-wrap: wrap te gebruiken om de tekst responsive te maken
+- Voor het rode blokje heb je de header gekopieert naar je 2e pagina, maar de kopen button vervalt. Misschien is het beter om op je 2e pagina de header apart weer aan te spreken.
 
 
 
 ## Voortgang 1 (week 3)
-Aan mijn eerste pagina begonnen. 
+Deze week ben ik aan mijn eerste pagina begonnen. Ik kreeg mijn Kobe Bryant afbeelding niet achter mijn tekst, de header moest nog responsive zijn en de youtube video werkte nog niet.
 
-Wat lastig ging:
+Hieronder is het eindresultaat van deze week:
 
-- Ik kreeg mijn afbeelding van Kobe Bryant niet achter mijn tekst.
-- De header moest nog responsive zijn.
-- Youtube video werkt nog niet.
+Feedbackgesprek Jelmer:
+
+![Afbeelding](images/Voortgang1.jpeg)
+
+- Je kan de afbeelding binnenin de div doen als achtergrond
+- De Youtube video is wel mogelijk zonder een foutmelding, er is een link die ik je kan sturen zodat het waarschijnlijk wel gaat werken
 
 
 

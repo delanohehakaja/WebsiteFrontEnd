@@ -309,9 +309,28 @@ header li a {
 .Youtube {
     display: block;
     width: 100%;
-    height: 400px;
+    height: 200px;
 }
 
+@media (min-width: 414px) {
+    .Youtube {
+        height: 300px;
+    }
+}
+
+@media (min-width:540px) {
+    .Youtube {
+        height: 400px;
+    }
+}
+
+@media (min-width:800px) {
+    .Youtube {
+        height: 500px;
+    }
+}
+
+@media (min-width:)
 
 /***********************/
 /* KIES JE VERSIE DEEL */
@@ -585,11 +604,11 @@ footer p {
 
 @media (min-width:900px) {
     .KopenPagina {
-    display:grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 2rem;
-    margin: auto;
-    padding 1.5em;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 2rem;
+        margin: auto;
+        padding 1.5em;
     }
 }
 
@@ -633,7 +652,7 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+
 }
 
 .container3 ul {
@@ -716,7 +735,7 @@ div.KopenPagina ul {
     display: flex;
     text-align: center;
     background-color: red;
-    max-width: 280px;
+    width: 280px;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -729,7 +748,6 @@ div.KopenPagina ul {
 .Bonus {
     display: flex;
     flex-direction: column;
-    max-width: 360px;
     background-color: black;
     padding: 10px;
     margin-bottom: 30px;
@@ -746,12 +764,12 @@ div.KopenPagina ul {
 
 @media (min-width:440px) {
     .Bonus {
-        width: 360px;
+        width: 400px;
     }
 }
 
 .Bonus h2 {
-    color:red;
+    color: red;
 }
 
 .Vragen {
@@ -760,7 +778,6 @@ div.KopenPagina ul {
     background-color: rgb(0, 0, 0, 0);
     border-style: solid;
     border-color: red;
-    max-width: 280px;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -776,14 +793,13 @@ div.KopenPagina ul {
 
 @media (min-width:344px) {
     .Vragen {
-
-        max-width: 300px;
+        width: 300px;
     }
 }
 
 @media (min-width:440px) {
     .Vragen {
-        max-width: 360px;
+        width: 360px;
     }
 }
 
