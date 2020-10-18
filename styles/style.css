@@ -170,7 +170,7 @@ header a:nth-of-type(1) img {
 }
 
 header a:nth-of-type(1):focus {
-    border-color:red;
+    border-color: red;
     border-style: solid;
 }
 
@@ -294,7 +294,7 @@ header li a {
     text-align: center;
     background-color: black;
     max-width: 300px;
-    border-color:red;
+    border-color: red;
     border-style: solid;
     margin: auto;
     margin-bottom: 20px;
@@ -559,8 +559,8 @@ footer p {
 
 .Text2 ul {
     display: flex;
-  flex-wrap: wrap;
-  padding: 0;
+    flex-wrap: wrap;
+    padding: 0;
     justify-content: center;
 
 }
@@ -718,6 +718,18 @@ div.KopenPagina ul {
     justify-content: center;
 }
 
+div.KopenPagina nav ul {
+    margin: 0;
+    padding: 4em 0 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
 .Playstation {
     background-color: black;
 }
@@ -781,7 +793,7 @@ div.KopenPagina ul {
 }
 
 .PlaystationStore:focus {
-    background-color:darkred;
+    background-color: darkred;
 }
 
 .Bonus {
