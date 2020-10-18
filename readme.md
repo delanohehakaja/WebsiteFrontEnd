@@ -60,8 +60,7 @@ Deze week ben ik aan mijn eerste pagina begonnen. Ik kreeg mijn Kobe Bryant afbe
 
 Hieronder is het eindresultaat van deze week:
 
-![Afbeelding1 Voortgang1](images/Voortgang1.png)
-![Afbeelding2 Voortgang1](images/Voortgang1_2.png)
+![Afbeelding1 Voortgang1](images/Voortgang1.png) ![Afbeelding2 Voortgang1](images/Voortgang1_2.png)
 
 Feedbackgesprek Jelmer:
 
