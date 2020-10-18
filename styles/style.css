@@ -6,8 +6,8 @@
 }
 
 @font-face {
-    font-family: "Provicali";
-    src: url("../Fonts/Provicali.otf") format("truetype");
+    font-family: 'Provicali';
+    src: url('../Fonts/Provicali.otf');
 }
 
 /* HOME PAGINA */
@@ -46,7 +46,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     color: white;
-    font-family: "Provicali";
+    font-family: 'Provicali';
     margin-top: 250px;
     margin-right: 30px;
 }
@@ -87,12 +87,12 @@ h1 {
     margin-left: 20px;
     display: flex;
     color: white;
-    font-family: "Provicali";
+    font-family: 'Provicali';
 }
 
 h2 {
     justify-content: center;
-    font-family: "Provicali";
+    font-family: 'Provicali';
 }
 
 p {
@@ -113,7 +113,7 @@ p {
     margin-bottom: 30px;
     padding: 20px;
     text-decoration: none;
-    font-family: "Provicali";
+    font-family: 'Provicali';
     color: white;
 }
 
@@ -153,7 +153,7 @@ header {
 header a {
     text-decoration: none;
     color: white;
-    font-family: "Provicali";
+    font-family: 'Provicali';
 }
 
 
@@ -186,7 +186,7 @@ header a:nth-of-type(2) {
     color: white;
     background-color: red;
     padding: 5px;
-    font-family: "Provicali";
+    font-family: 'Provicali';
     z-index: 100;
 }
 
@@ -301,7 +301,7 @@ header li a {
     padding: 10px;
     color: white;
     text-decoration: none;
-    font-family: "Provicali";
+    font-family: 'Provicali';
 
 }
 
@@ -361,7 +361,7 @@ header li a {
 
 .container3 p {
     color: black;
-    font-family: "Provicali";
+    font-family: 'Provicali';
 }
 
 @media (min-width: 375px) {
@@ -707,7 +707,7 @@ main {
 }
 
 .KopenPagina p {
-    font-family: "Provicali";
+    font-family: 'Provicali';
 }
 
 div.KopenPagina ul {
@@ -776,7 +776,7 @@ div.KopenPagina ul {
     margin-right: auto;
     padding: 20px;
     text-decoration: none;
-    font-family: "Provicali";
+    font-family: 'Provicali';
     color: white;
 }
 
@@ -822,7 +822,7 @@ div.KopenPagina ul {
     margin-right: auto;
     padding: 20px 50px;
     text-decoration: none;
-    font-family: "Provicali";
+    font-family: 'Provicali';
     color: white;
 }
 
