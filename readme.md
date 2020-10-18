@@ -21,6 +21,18 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -screenshot(s) van je eindresultaat-
 
+Deze week had ik mij vooral gericht op het responsive gedeelte op pagina 1, zodat de content niet oneindig mee schaalt en de tekst leesbaar is op grotere beeldschermen. Daarnaast heb ik de hamburger menu werkend gemaakt met behulp van deze bron: https://codepen.io/shooft/pen/vYGQNZj. Ten slotte heb ik mijn 2e pagina afgemaakt, gevuld met alle content.
+
+Hieronder is het eindresultaat van deze week:
+
+Pagina 1 & 2 mobile
+
+![responsive image](images/Schermopname_Voortgang7.gif)
+
+Pagina 1 responsive
+
+
+Pagina 2 responsive
 
 
 ## Voortgang 3 (week 6)
@@ -30,14 +42,16 @@ Waar ik nog steeds niet ben uitgekomen is hoe ik het rode blokje op de 2e pagina
 
 Hieronder is het eindresultaat van deze week:
 
+Pagina 1
+
 ![responsive image](images/responsive_2k21.gif)
 
 Feedbackgesprek Janno:
 
 - Voeg een max-width aan, zodat al je content niet oneindig mee schaalt
 - Maak de tekst, qua grootte, ook responsive het is dan duidelijker lezen op een groot beeldscherm
-- De 2e pagina mag meer opgevuld worden met content
 - Ik ben benieuwd naar je hamburger menu, wanneer hij werkt
+- De 2e pagina mag meer opgevuld worden met content
 
 
 
@@ -66,6 +80,8 @@ Feedbackgesprek Jelmer:
 Deze week ben ik aan mijn eerste pagina begonnen. Ik kreeg mijn Kobe Bryant afbeelding niet achter mijn tekst, de header moest nog responsive zijn en de youtube video werkte nog niet.
 
 Hieronder is het eindresultaat van deze week:
+
+Pagina 1
 
 ![Afbeelding1 Voortgang1](images/Voortgang1.png)
 ![Afbeelding2 Voortgang1](images/Voortgang1_2.png)

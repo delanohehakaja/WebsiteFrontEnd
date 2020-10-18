@@ -169,6 +169,11 @@ header a:nth-of-type(1) img {
     height: 50px;
 }
 
+header a:nth-of-type(1):focus {
+    border-color:red;
+    border-style: solid;
+}
+
 
 /*****************/
 /*NU KOPEN BUTTON*/
@@ -207,6 +212,11 @@ header nav button {
     background-color: rgba(0, 0, 0, 0);
     border: none;
     z-index: 100;
+}
+
+header nav button:focus {
+    border-color: red;
+    border-style: solid;
 }
 
 header nav ul {
@@ -283,8 +293,11 @@ header li a {
     justify-content: center;
     text-align: center;
     background-color: black;
-    max-width: 200px;
+    max-width: 300px;
+    border-color:red;
+    border-style: solid;
     margin: auto;
+    margin-bottom: 20px;
     padding: 10px;
     color: white;
     text-decoration: none;
@@ -293,7 +306,7 @@ header li a {
 }
 
 .InfoButton:focus {
-    background-color: darkgray;
+    background-color: darkred;
 }
 
 .Beats {
@@ -480,7 +493,7 @@ footer {
     background-color: black;
     padding: 2px;
     margin: 5px;
-    height: 700px;
+    height: 800px;
 }
 
 footer p {
@@ -569,6 +582,10 @@ footer p {
     color: white;
 }
 
+#land:focus {
+    background-color: darkred;
+}
+
 
 /**************/
 /*Social icons*/
@@ -583,7 +600,9 @@ footer p {
 }
 
 .Social a:focus {
-    color: red;
+    border-color: red;
+    border-style: solid;
+    padding: 3px;
 }
 
 
@@ -707,12 +726,20 @@ div.KopenPagina ul {
     background-color: white;
 }
 
+.Playstation:focus {
+    background-color: red;
+}
+
 .Xbox {
     background-color: black;
 }
 
 .Xbox:active {
     background-color: white;
+}
+
+.Xbox:focus {
+    background-color: red;
 }
 
 .Steam {
@@ -723,12 +750,20 @@ div.KopenPagina ul {
     background-color: white;
 }
 
+.Steam:focus {
+    background-color: red;
+}
+
 .Stadia {
     background-color: black;
 }
 
 .Stadia:active {
     background-color: white;
+}
+
+.Stadia:focus {
+    background-color: red;
 }
 
 .PlaystationStore {
@@ -743,6 +778,10 @@ div.KopenPagina ul {
     text-decoration: none;
     font-family: "Provicali";
     color: white;
+}
+
+.PlaystationStore:focus {
+    background-color:darkred;
 }
 
 .Bonus {
