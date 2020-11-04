@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* Eigen font toegevoegd dat lijkt op het originele font van de originele website*/
 @font-face {
     font-family: 'Provicali';
     src: url('../Fonts/Provicali.otf');
@@ -17,10 +18,39 @@ body {
     max-width: 1000px;
 }
 
+/******************/
+/* Algemene tekst */
+/******************/
+h1 {
+    margin-left: 20px;
+    display: flex;
+    color: white;
+    font-family: 'Provicali';
+}
+
+h2 {
+    justify-content: center;
+    font-family: 'Provicali';
+}
+
+h3 {
+    font-family: 'Provicali';
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    margin: 20px;
+}
 
 /******************************/
 /* MAMBA FOREVER EDITION DEEL */
 /******************************/
+
+/* Mamba forever edition deel container*/
 .container {
     background-repeat: no-repeat;
     background-position: center;
@@ -29,11 +59,13 @@ body {
     height: 530px;
 }
 
+/* Mamba forever edition deel container responsive height */
 @media (min-width:330px) {
     .container {
         height: 600px;
     }
 }
+
 
 @media (min-width:440px) {
     .container {
@@ -41,6 +73,7 @@ body {
     }
 }
 
+/* h1 in de container van Mamba Forever edition deel */
 .container h1 {
     display: flex;
     flex-direction: column;
@@ -51,6 +84,7 @@ body {
     margin-right: 30px;
 }
 
+/* container h1 responsive positie */
 @media (min-width: 322px) {
     .container h1 {
         margin-top: 280px;
@@ -72,38 +106,14 @@ body {
     }
 }
 
-
+/* De p blijft linksonder de pagina */
 .container p {
     display: flex;
     text-align: left;
     justify-content: flex-start;
 }
 
-
-/*********/
-/* tekst */
-/*********/
-h1 {
-    margin-left: 20px;
-    display: flex;
-    color: white;
-    font-family: 'Provicali';
-}
-
-h2 {
-    justify-content: center;
-    font-family: 'Provicali';
-}
-
-p {
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-family: monospace;
-    text-align: center;
-    margin: 20px;
-}
-
+/* Preorder button*/
 .PreOrderButton {
     display: flex;
     justify-content: center;
@@ -150,6 +160,7 @@ header {
     max-width: 1000px;
 }
 
+/* header opmaak */
 header a {
     text-decoration: none;
     color: white;
@@ -160,10 +171,13 @@ header a {
 /**********/
 /*NBA LOGO*/
 /**********/
+
+/* positie NBA logo */
 header a:nth-of-type(1) {
     z-index: 100;
 }
 
+/* grootte en ruimte voor de NBA logo */
 header a:nth-of-type(1) img {
     padding: 10px;
     height: 50px;
@@ -178,6 +192,8 @@ header a:nth-of-type(1):focus {
 /*****************/
 /*NU KOPEN BUTTON*/
 /*****************/
+
+/* Nu kopen button */
 header a:nth-of-type(2) {
     display: block;
     width: 100px;
@@ -207,6 +223,8 @@ header nav {
 /****************/
 /*HAMBURGER MENU*/
 /****************/
+
+/* Hamburger menu */
 header nav button {
     position: relative;
     background-color: rgba(0, 0, 0, 0);
@@ -219,6 +237,7 @@ header nav button:focus {
     border-style: solid;
 }
 
+/* content in de hamburger menu */
 header nav ul {
     margin: 0;
     padding: 4em 0 0;
@@ -233,10 +252,12 @@ header nav ul {
     transition: 0.5s;
 }
 
+/* content in de hamburgermenu wordt getoond */
 nav.toonMenu ul {
     transform: translateX(0)
 }
 
+/*3 streepjes voor menu */
 nav button::before {
     content: "\2630 ";
     display: inline-block;
@@ -244,6 +265,7 @@ nav button::before {
     font-size: 36px;
 }
 
+/* X content voor menu */
 nav.toonMenu button::before {
     content: "\274C";
     display: inline-block;
@@ -251,6 +273,7 @@ nav.toonMenu button::before {
     font-size: 28px;
 }
 
+/* positie tekst in de hamburger menu */
 header li a {
     display: block;
     padding: 1em 1em 1em 3.5em;
@@ -261,6 +284,8 @@ header li a {
 /*********************/
 /* DE ZOEKTOCHT DEEL */
 /*********************/
+
+/* De zoektocht deel container */
 .container2 {
     padding: 2px;
     margin: 5px;
@@ -270,6 +295,7 @@ header li a {
     color: black;
 }
 
+/* container2 p responsive font-size */
 @media (min-width: 375px) {
     .container2 p {
         font-size: 15px;
@@ -288,6 +314,7 @@ header li a {
     }
 }
 
+/* Info button */
 .InfoButton {
     display: flex;
     justify-content: center;
@@ -309,6 +336,7 @@ header li a {
     background-color: darkred;
 }
 
+/* Beats afbeelding */
 .Beats {
     display: block;
     margin: auto;
@@ -319,35 +347,38 @@ header li a {
 /***************/
 /* YOUTUBE DEEL*/
 /***************/
-.Youtube {
+
+/* Een screenshot afbeelding van een Youtube video */
+.Screenshot {
     display: block;
     width: 100%;
     height: 200px;
 }
 
+/* Screenshot afbeelding van een Youtube video responsive height */
 @media (min-width: 414px) {
-    .Youtube {
+    .Screenshot {
         height: 300px;
     }
 }
 
 @media (min-width:540px) {
-    .Youtube {
+    .Screenshot {
         height: 400px;
     }
 }
 
 @media (min-width:800px) {
-    .Youtube {
+    .Screenshot {
         height: 500px;
     }
 }
 
-@media (min-width:)
-
 /***********************/
 /* KIES JE VERSIE DEEL */
 /***********************/
+
+/* Kies je versie deel container */
 .container3 {
     background-repeat: no-repeat;
     background-position: center;
@@ -355,15 +386,26 @@ header li a {
     margin: 5px;
 }
 
+/* h1 van de kies je versie deel container */
 .container3 h1 {
     color: black;
 }
 
-.container3 p {
-    color: black;
+.container3 h3 {
     font-family: 'Provicali';
+    font-size: 15px;
+    text-align: center;
 }
 
+/* p van de kies je versie deel container */
+.container3 p {
+    color: black;
+    max-width: 170px;
+    text-align: center;
+    margin: auto;
+}
+
+/* container3 p responsive  font-size */
 @media (min-width: 375px) {
     .container3 p {
         font-size: 15px;
@@ -378,10 +420,12 @@ header li a {
 
 @media (min-width:810px) {
     .container3 p {
-        font-size: 20px;
+        font-size: 15px;
+        text-align: center;
     }
 }
 
+/* zorgt dat de content op klein beeld onder elkaar staat en naast elkaar komt te staan als het beeld vergroot in de kies je versie deel */
 .container3 ul {
     display: flex;
     list-style: none;
@@ -394,12 +438,14 @@ header li a {
     padding: 10px;
 }
 
+/* Lillard cover plaatje */
 .LillardCover {
     display: flex;
     margin: auto;
     height: 300px;
 }
 
+/* Lillard cover plaatje responsive height */
 @media (min-width:370px) {
     .LillardCover {
         height: 350px;
@@ -414,16 +460,18 @@ header li a {
 
 @media (min-width:730px) {
     .LillardCover {
-        height: 350px;
+        height: 200px;
     }
 }
 
+/* Mamba cover plaatje */
 .MambaCover {
     display: flex;
     margin: auto;
     height: 300px;
 }
 
+/* Mamba cover plaatje responsive height */
 @media (min-width:370px) {
     .MambaCover {
         height: 350px;
@@ -438,16 +486,71 @@ header li a {
 
 @media (min-width:730px) {
     .MambaCover {
+        height: 200px;
+    }
+}
+
+/* Plaatje van de Virtual Currency onder aanbieding in de kies je versie deel container */
+.VirtualCurrency {
+    display: flex;
+    height: 300px;
+    margin: auto;
+}
+
+/* Virtual Currency plaatje responsive height */
+@media (min-width:370px) {
+    .VirtualCurrency {
         height: 350px;
     }
 }
 
+@media (min-width:500px) {
+    .VirtualCurrency {
+        height: 500px;
+    }
+}
+
+@media (min-width:730px) {
+    .VirtualCurrency {
+        height: 200px;
+    }
+}
+
+/* Plaatje van de Zion Virtual Currency onder aanbieding in de kies je versie deel container */
+.ZionVirtualCurrency {
+    display: flex;
+    height: 300px;
+    margin: auto;
+    margin-top: 90px;
+}
+
+/* Virtual Currency plaatje responsive height */
+@media (min-width:370px) {
+    .ZionVirtualCurrency {
+        height: 350px;
+    }
+}
+
+@media (min-width:500px) {
+    .ZionVirtualCurrency {
+        height: 500px;
+    }
+}
+
+@media (min-width:730px) {
+    .ZionVirtualCurrency {
+        height: 200px;
+    }
+}
+
+/*Zion cover plaatje */
 .ZionCover {
     display: flex;
     margin: auto;
     height: 300px;
 }
 
+/* Zion cover plaatje responsive height */
 @media (min-width: 370px) {
     .ZionCover {
         height: 350px;
@@ -462,13 +565,41 @@ header li a {
 
 @media (min-width:730px) {
     .ZionCover {
+        height: 200px;
+    }
+}
+
+/*Mamba forever cover plaatje */
+.MambaForeverCover {
+    display: flex;
+    margin: auto;
+    height: 300px;
+}
+
+/* Mamba forever cover plaatje responsive height */
+@media (min-width: 370px) {
+    .MambaForeverCover {
         height: 350px;
+    }
+}
+
+@media (min-width: 500px) {
+    .MambaForeverCover {
+        height: 500px;
+    }
+}
+
+@media (min-width:730px) {
+    .MambaForeverCover {
+        height: 200px;
     }
 }
 
 /*************************/
 /* COURTSIDE REPORT DEEL */
 /*************************/
+
+/* Courside report deel container */
 .container4 {
     padding: 2px;
     margin: 5px;
@@ -478,6 +609,7 @@ header li a {
 .container4 h1 {
     color: black;
 }
+
 
 .container4 p {
     display: flex;
@@ -489,6 +621,8 @@ header li a {
 /**********/
 /* FOOTER */
 /**********/
+
+/* De footer van de website */
 footer {
     background-color: black;
     padding: 2px;
@@ -502,6 +636,7 @@ footer p {
     max-width: 800px;
 }
 
+/* p van de footer responsive font-size */
 @media (min-width: 375px) {
     footer p {
         font-size: 15px;
@@ -520,8 +655,10 @@ footer p {
     }
 }
 
+/* Bovenste links van de footer */
 .Text a {
     display: flex;
+    justify-content: flex-end;
     text-decoration: none;
     color: white;
 }
@@ -547,6 +684,7 @@ footer p {
 
 }
 
+/* Onderste links van de footer */
 .Text2 a {
     display: flex;
     text-decoration: none;
@@ -573,6 +711,7 @@ footer p {
 
 }
 
+/* buttons om de taal te kiezen */
 #land {
     display: flex;
     margin: auto;
@@ -586,10 +725,24 @@ footer p {
     background-color: darkred;
 }
 
+#land2 {
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: darkgray;
+    color: white;
+}
+
+#land2:focus {
+    background-color: darkred;
+}
 
 /**************/
 /*Social icons*/
 /**************/
+
+/* Social icons */
 .Social ul {
     display: flex;
     justify-content: center;
@@ -605,7 +758,7 @@ footer p {
     padding: 3px;
 }
 
-
+/* Everyone plaatje in de footer */
 .Everyone {
     display: block;
     margin: auto;
@@ -615,28 +768,34 @@ footer p {
 /****************/
 /* KOPEN PAGINA */
 /****************/
+
+/* kopen pagina container */
 .KopenPagina {
     margin: 0;
     padding: 2px;
     margin: 5px;
 }
 
+/* De content van de kopen pagina wordt in tweeen gesplitst als de width minimaal 900px is */
 @media (min-width:900px) {
     .KopenPagina {
         display: grid;
         grid-template-columns: 50% 50%;
         grid-gap: 2rem;
         margin: auto;
-        padding 1.5em;
+        padding: 1.5em;
+        height: 1000px;
     }
 }
 
+/* Mamba cover plaatje in kopen pagina container */
 .MambaCover2 {
     display: flex;
     margin: auto;
     height: 300px;
 }
 
+/* Mamba cover plaatje responsive height */
 @media (min-width:325px) {
     .MambaCover2 {
         height: 350px;
@@ -667,27 +826,28 @@ footer p {
     }
 }
 
+/* linkerkant van de pagina op monitor */
+aside {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* rechterkant van de pagina op monitor */
 main {
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
 
-.container3 ul {
-    display: flex;
-    list-style: none;
-    margin-right: 40px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-self: flex-start;
-}
 
 .KopenPagina h1 {
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 10px;
     color: red;
 }
 
+/* Kopen pagina h1 responsive font-size */
 @media (min-width: 600px) {
     .KopenPagina h1 {
         font-size: 40px;
@@ -708,8 +868,10 @@ main {
 
 .KopenPagina p {
     font-family: 'Provicali';
+    font-size: 15px;
 }
 
+/* positie console iconen */
 div.KopenPagina ul {
     display: flex;
     flex-wrap: wrap;
@@ -730,6 +892,7 @@ div.KopenPagina nav ul {
     position: fixed;
 }
 
+/* PlayStation icoon */
 .Playstation {
     background-color: black;
 }
@@ -742,6 +905,7 @@ div.KopenPagina nav ul {
     background-color: red;
 }
 
+/* Xbox icoon */
 .Xbox {
     background-color: black;
 }
@@ -754,6 +918,7 @@ div.KopenPagina nav ul {
     background-color: red;
 }
 
+/* Steam icoon */
 .Steam {
     background-color: black;
 }
@@ -766,6 +931,7 @@ div.KopenPagina nav ul {
     background-color: red;
 }
 
+/* Stadia icoon */
 .Stadia {
     background-color: black;
 }
@@ -778,9 +944,100 @@ div.KopenPagina nav ul {
     background-color: red;
 }
 
+/* Huidige generatie balk */
+.HuidigeGeneratie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 320px) {
+    .HuidigeGeneratie {
+        width: 300px;
+    }
+}
+
+@media (min-width: 375px) {
+    .HuidigeGeneratie {
+        width: 355px;
+    }
+}
+
+@media (min-width: 414px) {
+    .HuidigeGeneratie {
+        width: 400px;
+    }
+}
+
+@media (min-width: 900px) {
+    .HuidigeGeneratie {
+        width: 450px;
+    }
+}
+
+/* Volgende generatie balk */
+.VolgendeGeneratie {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 320px) {
+    .VolgendeGeneratie {
+        width: 300px;
+    }
+}
+
+@media (min-width: 375px) {
+    .VolgendeGeneratie {
+        width: 355px;
+    }
+}
+
+@media (min-width: 414px) {
+    .VolgendeGeneratie {
+        width: 400px;
+    }
+}
+
+@media (min-width: 900px) {
+    .VolgendeGeneratie {
+        width: 450px;
+        margin-top: 135px;
+    }
+}
+
+@media (min-width: 905px) {
+    .VolgendeGeneratie {
+        margin-top: 155px;
+    }
+}
+
+/* Editie buttons */
+.Editie {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    justify-content: center;
+    background: black;
+    font-family: 'Provicali';
+    color: white;
+}
+
+.Editie:active {
+    background-color: red;
+}
+
+.Editie:focus {
+    background: darkred;
+}
+
+/* PlayStation store button */
 .PlaystationStore {
     display: flex;
     text-align: center;
+    justify-content: center;
     background-color: red;
     width: 280px;
     margin-bottom: 30px;
@@ -796,17 +1053,19 @@ div.KopenPagina nav ul {
     background-color: darkred;
 }
 
+/* Bonus content */
 .Bonus {
     display: flex;
     flex-direction: column;
     background-color: black;
-    padding: 10px;
     margin-bottom: 30px;
+    height: 300px;
     text-align: center;
     border-style: solid;
     border-color: red;
 }
 
+/* Bonus content responsive width */
 @media (min-width:344px) {
     .Bonus {
         width: 300px;
@@ -820,9 +1079,20 @@ div.KopenPagina nav ul {
 }
 
 .Bonus h2 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
     color: red;
+    text-align: left;
 }
 
+.Bonus p {
+    display: flex;
+    margin: 10px;
+    text-align: left;
+}
+
+/* Veel gestelde vragen link */
 .Vragen {
     display: flex;
     text-align: center;
@@ -842,6 +1112,7 @@ div.KopenPagina nav ul {
     background-color: darkred;
 }
 
+/* Veel gestelde vragen link responsive width */
 @media (min-width:344px) {
     .Vragen {
         width: 300px;
@@ -852,15 +1123,4 @@ div.KopenPagina nav ul {
     .Vragen {
         width: 360px;
     }
-}
-
-button {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: black;
-    color: white;
 }
