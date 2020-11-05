@@ -1088,7 +1088,7 @@ div.KopenPagina nav ul {
 
 .Bonus p {
     display: flex;
-    margin: 10px;
+    margin: 10px 100px 10px 10px;
     text-align: left;
 }
 
